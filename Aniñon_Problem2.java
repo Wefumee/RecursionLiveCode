@@ -13,12 +13,9 @@ public class GCD {
         int a = input.nextInt();
         int b = input.nextInt();
 
-        //To validate the inputs
-        if (a < 0 || b < 0) {
-            System.out.println("Invalid input. Please input a positive number");
-        } //GCD of a and b when both are zero.
+        //GCD of a and b when both are zero.
         //Recall:when a and b are zero, the GCD of a and b is undefined 
-        else if (a == 0 && b == 0) {
+         if (a == 0 && b == 0) {
             System.out.println("Undefined");
             //Result   
         } else {
